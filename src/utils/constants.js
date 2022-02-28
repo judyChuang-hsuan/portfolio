@@ -4,7 +4,7 @@ export const projects = [
   {
     id: 1,
     name: "Audiophile",
-    image: "../assets/audio1.png",
+    image: "./portfolio/assets/audio1.png",
     description:
       "If you wanna buy nice-looking and elegant headphones, visit the website now.",
     tech: "React  Redux  Tailwind CSS  API",
@@ -14,7 +14,7 @@ export const projects = [
   {
     id: 2,
     name: "Planets-Fact",
-    image: "../assets/planets2.png",
+    image: "./portfolio/assets/planets2.png",
     description:
       "Do you know what happened to every planets in the solar system? Visit the website now.",
     tech: "React  Bootstrap  API",
@@ -24,7 +24,7 @@ export const projects = [
   {
     id: 3,
     name: "WeShop",
-    image: "../assets/weshop.png",
+    image: "./portfolio/assets/weshop.png",
     description:
       "We have different kinds of products. Everything you need is in WeShop.",
     tech: "React  Bootstrap  Styled-Components  API",
@@ -34,7 +34,7 @@ export const projects = [
   {
     id: 4,
     name: "Coollors",
-    image: "../assets/colors.png",
+    image: "./portfolio/assets/colors.png",
     description: "Generate any color you like.",
     tech: "React",
     website: "https://coollors.netlify.app/",
@@ -43,7 +43,7 @@ export const projects = [
   {
     id: 5,
     name: "What's your plan?",
-    image: "../assets/to-do2.png",
+    image: "./portfolio/assets/to-do2.png",
     description: "What are you going to do today? Write down your to-do list.",
     tech: "React  Styled-Components",
     website: "https://whatsyourplan.netlify.app/",
@@ -52,7 +52,7 @@ export const projects = [
   {
     id: 6,
     name: "Quizzzzz",
-    image: "../assets/quiz.png",
+    image: "./portfolio/assets/quiz.png",
     description:
       "Wanna test your knowledge about different fields? Check this!",
     tech: "React     API     Styled-Components",
