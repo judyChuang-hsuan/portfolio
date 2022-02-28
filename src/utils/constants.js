@@ -1,17 +1,11 @@
 import React from "react";
 import { FaCodepen, FaMediumM, FaGithub } from "react-icons/fa";
-import audio from "../assets/audio1.png";
-import planets from "../assets/planets2.png";
-import colors from "../assets/colors.png";
-import quiz from "../assets/quiz.png";
-import weshop from "../assets/weshop.png";
-import todo from "../assets/to-do2.png";
 
 export const projects = [
   {
     id: 1,
     name: "Audiophile",
-    image: { audio },
+    image: "./assets/audio1.png",
     description:
       "If you wanna buy nice-looking and elegant headphones, visit the website now.",
     tech: "React  Redux  Tailwind CSS  API",
@@ -21,7 +15,7 @@ export const projects = [
   {
     id: 2,
     name: "Planets-Fact",
-    image: { planets },
+    image: "./assets/planets2.png",
     description:
       "Do you know what happened to every planets in the solar system? Visit the website now.",
     tech: "React  Bootstrap  API",
@@ -31,7 +25,7 @@ export const projects = [
   {
     id: 3,
     name: "WeShop",
-    image: { weshop },
+    image: "./assets/weshop.png",
     description:
       "We have different kinds of products. Everything you need is in WeShop.",
     tech: "React  Bootstrap  Styled-Components  API",
@@ -41,7 +35,7 @@ export const projects = [
   {
     id: 4,
     name: "Coollors",
-    image: { colors },
+    image: "./assets/colors.png",
     description: "Generate any color you like.",
     tech: "React",
     website: "https://coollors.netlify.app/",
@@ -50,7 +44,7 @@ export const projects = [
   {
     id: 5,
     name: "What's your plan?",
-    image: { todo },
+    image: "./assets/to-do2.png",
     description: "What are you going to do today? Write down your to-do list.",
     tech: "React  Styled-Components",
     website: "https://whatsyourplan.netlify.app/",
@@ -59,7 +53,7 @@ export const projects = [
   {
     id: 6,
     name: "Quizzzzz",
-    image: { quiz },
+    image: "./assets/quiz.png",
     description:
       "Wanna test your knowledge about different fields? Check this!",
     tech: "React     API     Styled-Components",
