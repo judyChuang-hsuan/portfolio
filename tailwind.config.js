@@ -23,7 +23,7 @@ module.exports = {
         sm: "-5px 5px 12px rgba(255,255,255,0.6), 5px 5px 12px rgba(0,0,0)",
       },
       backgroundImage: {
-        "hero-background": "url(./assets/bg-img.jpg)",
+        "hero-background": "url(./assets/bg-img.png)",
       },
       blur: {
         xs: "2px",
@@ -45,6 +45,9 @@ module.exports = {
         40: "40rem",
         50: "50rem",
       },
+      fontFamily: {
+        BebasNeue: ['Bebas Neue', 'serif'],
+      }
     },
   },
   plugins: [],

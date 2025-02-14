@@ -19,7 +19,7 @@ const Navbar = () => {
     <Disclosure as="nav" className="bg-dark-blue">
       {({ open }) => (
         <>
-          <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="w-full mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
@@ -39,7 +39,7 @@ const Navbar = () => {
                           item.current
                             ? "bg-gray-900 text-white"
                             : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                          "px-3 py-2 rounded-md text-xl font-bold"
+                          "px-3 py-2 rounded-md text-3xl"
                         )}
                         aria-current={item.current ? "page" : undefined}
                       >
@@ -74,7 +74,7 @@ const Navbar = () => {
                     item.current
                       ? "bg-gray-900 text-white"
                       : "text-gray-300 hover:bg-gray-700 hover:text-white",
-                    "block px-3 py-2 rounded-md text-xl font-bold"
+                    "block px-3 py-2 rounded-md text-3xl"
                   )}
                   aria-current={item.current ? "page" : undefined}
                 >
