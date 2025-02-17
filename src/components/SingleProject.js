@@ -5,13 +5,13 @@ const SingleProject = ({ name, image, description, tech, website, github }) => {
     <div className="card">
       <div className="card-img">
         <img
-          className="h-full m-auto w-11/12 brightness-75 hover:brightness-100"
+          className="h-full m-auto w-full brightness-75 hover:brightness-100"
           src={image}
           alt={name}
         />
       </div>
       <div className="relative card-body text-center flex flex-col gap-4">
-        <h2 className="text-white font-bold text-2xl xl:text-3xl">{name}</h2>
+        <h2 className="text-white text-2xl xl:text-3xl">{name}</h2>
         <p className="text-graish-blue font-xl tracking-wide xl:text-2xl">
           {description}
         </p>

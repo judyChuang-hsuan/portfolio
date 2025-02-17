@@ -9,10 +9,10 @@ const Project = () => {
   }, []);
   return (
     <div className="bg-dark-blue" id="project">
-      <div data-aos="fade-right" className="min-h-screen py-8 w-11/12 m-auto">
+      <div data-aos="fade-right" className="min-h-screen h-screen py-8 w-11/12 m-auto">
         <h1 className="text-5xl text-white font-light mb-4">My Project</h1>
         <div className="bg-light-blue ml-8 w-56 h-2 mb-8"></div>
-        <div className="flex justify-center m-auto flex-col flex-wrap md:flex-row">
+        <div className="flex flex-col items-center h-full m-auto flex-wrap gap-8 lg:flex-row lg:justify-between">
           {projects.map((project) => {
             return <SingleProject key={project.id} {...project} />;
           })}

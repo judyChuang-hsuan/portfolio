@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  max-width: 100%;
 }
 
 ::-webkit-scrollbar {
@@ -43,12 +44,10 @@ body {
   position: relative;
   transform-style: preserve-3d;
   transition: 1.5s;
-  /* border: 1px solid #fff; */
-  height: 20rem;
 }
 .card-img {
   position: relative;
-  height: 15rem;
+  /*height: 15rem;*/
   padding-top: 2.5rem;
   transform: translateZ(40px);
 }
@@ -59,7 +58,7 @@ body {
   left: 50%;
   transform: translate3d(-50%, -50%, -40px) rotateY(180deg);
   width: 85%;
-  height: 80%;
+  height:500px;
   overflow: hidden;
   border: 5px solid #161a1d;
   background-color: #161a1d;
@@ -70,10 +69,11 @@ body {
 }
 @media only screen and (min-width: 1280px) {
   .card {
-    height: 30rem;
+    height: 500px;
+    width: 500px;
   }
   .card-img {
-    height: 20rem;
+    height: 80%;
     padding-top: 3rem;
   }
 }

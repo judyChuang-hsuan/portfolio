@@ -6,12 +6,11 @@ const technology = [
   { id: 2, name: "CSS" },
   { id: 3, name: "JAVASCRIPT" },
   { id: 4, name: "REACT" },
-  { id: 5, name: "REDUX" },
-  { id: 6, name: "PYTHON" },
-  { id: 7, name: "FLASK" },
-  { id: 8, name: "BOOTSTRAP" },
-  { id: 9, name: "TAILWIND CSS" },
-  { id: 10, name: "GA" },
+  { id: 5, name: "VUE" },
+  { id: 6, name: "NODE" },
+  { id: 7, name: "PYTHON" },
+  { id: 8, name: "TAILWIND CSS" },
+  { id: 9, name: "TYPESCRIPT" },
 ];
 const Tech = () => {
   return (
